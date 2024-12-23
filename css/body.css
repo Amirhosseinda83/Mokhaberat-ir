@@ -1,0 +1,104 @@
+body{
+  width:100%;
+  height: 100vh;
+
+}
+
+
+.body {
+  width: 70%;
+  height: 500px;
+  margin: 50px auto;
+  
+  .body-top {
+    width: 50%;
+    height: 70px;
+    background-color: #1e87f0;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms;
+    .body-top-font {
+      font-family: var(--font-family);
+      font-size: 16px;
+      color: #eee9e9;
+      justify-content: center;
+      text-decoration: none;
+    }
+    &:hover {
+background-color:#114d88 ;
+        }
+  }
+  .body-buttom {
+    width: 600px;
+    height: 250px;
+    
+    margin: 10px  auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    
+    .body-bottom-1 {
+      width: 250px;
+      height: inherit;
+      border: 1px solid lightgray;
+      transition: 300ms;
+      cursor: pointer;
+      .body-bottom-1-image {
+        width: inherit;
+        height: 50%;
+        text-align: center;
+        img {
+          padding-top: 50px;
+        }
+      }
+      .body-bottom-1-font {
+        width: inherit;
+        height: 50%;
+        font-size: 15px;
+        text-align: center;
+        font-family: var(--font-family);
+        margin-top: 20px;
+        color: #666b7a;
+      }
+
+ 
+     &:hover{
+      background-color: rgb(218, 195, 200);
+     }}
+    .body-bottom-2 {
+      width: 250px;
+      height: inherit;
+      border: 1px solid lightgray;
+      transition: 300ms;
+      cursor: pointer;
+      .body-bottom-2-image {
+        width: inherit;
+        height: 50%;
+        text-align: center;
+        img {
+          padding-top: 40px;
+        }
+      }
+      .body-bottom-2-font {
+        width: inherit;
+        height: 50%;
+
+        text-align: center;
+        font-family: var(--font-family);
+        font-size: 15px;
+        padding-top: 20px;
+        color: #666b7a;
+        transition: 300ms;
+    
+      }
+      &:hover {
+        background-color: rgb(231, 211, 215);
+ 
+       }
+    }
+  }
+}

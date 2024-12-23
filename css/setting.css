@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+/* fonts*/
+@font-face {
+  font-family: vazir;
+  src:url("../vazir-font-v16.1.0/Vazir-Bold.ttf");
+}
+/* variables */
+:root{
+ --font-family:vazir;   
+    
+}
